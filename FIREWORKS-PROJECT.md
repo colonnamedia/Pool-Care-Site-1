@@ -38,7 +38,8 @@ Fields: residential/commercial property path, facility type, pool type, approxim
 ## Supported / proposed integrations
 
 - CRM or verified inbox quote routing: $299 setup
-- Scheduling / route-booking provider: $299 setup
+- Basic booking / appointment connection: from $199 setup
+- Pool route scheduling and field mapping: from $299 setup
 - Recurring enrollment and billing: $399 setup
 - Field-service, work-order, or commercial reporting workflow: from $499 setup
 - Secure customer portal or document workflow: from $499 setup
@@ -73,7 +74,8 @@ Rationale: eight crawlable customer pages plus preview; separate residential and
 - Additional service or verified location page: $125 each
 - Professional email setup: $99
 - CRM / lead routing: $299
-- Scheduling or route-booking integration: $299
+- Basic booking / appointment integration: from $199
+- Pool route scheduling and field mapping: from $299
 - Recurring enrollment and billing: $399
 - Commercial work-order / reporting workflow: from $499
 - Customer portal or secure document workflow: from $499
@@ -94,9 +96,11 @@ Image generation prompt summary: photorealistic commercial editorial scene of a 
 - Planned preview guide: https://pool-care-site-1.vercel.app/preview
 - Source repository: https://github.com/colonnamedia/Pool-Care-Site-1
 - Storefront: https://fireworks-websitebuilder.com/WebsiteCollection
-- Source commit: updated in the completion commit.
-- Storefront commit: updated in the completion summary.
-- `npm test` verifies all nine pages, internal routes, quote fields, demo disclosures, provider gates, generated hero assets, schema placeholders, sitemap entries, and storefront-safe metadata.
+- Source implementation commit: `276ee762997ce4f3e1d6d2829e548b28a6becab4`.
+- Storefront publication commit: `6e2d80d60359ff2c2a17bd4b5b4b864ea0a70f7d`.
+- `npm test` passed on October 13, 2026 and verified all nine pages, internal routes, quote fields, demo disclosures, provider gates, generated hero assets, schema placeholders, sitemap entries, and storefront-safe metadata.
+- Vercel production deployment `dpl_2xdzCjuQY2fEoKnr7qZcmVq7BeZE` reached `READY`; the permanent alias, every page title/H1/navigation, original hero, detailed quote form, local-only success state, and preview guide were verified live.
+- FireWorks Home and WebsiteCollection show the template as `Featured` and `Available`; the 1200×675 storefront image loaded at its natural dimensions. Checkout was verified at $1,999 build + $499/year annual hosting (primary) or $59.99/month, plus $20/year domain; the annual first-year total before optional add-ons is $2,518.
 
 ## Future design variants
 
