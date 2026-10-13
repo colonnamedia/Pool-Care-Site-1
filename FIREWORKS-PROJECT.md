@@ -98,6 +98,7 @@ Image generation prompt summary: photorealistic commercial editorial scene of a 
 - Storefront: https://fireworks-websitebuilder.com/WebsiteCollection
 - Source implementation commit: `276ee762997ce4f3e1d6d2829e548b28a6becab4`.
 - Storefront publication commit: `6e2d80d60359ff2c2a17bd4b5b4b864ea0a70f7d`.
+- Storefront integration-pricing clarification commit: `64392bf8154b3ea6a2239bf37b2edb25ec30ee6b`.
 - `npm test` passed on October 13, 2026 and verified all nine pages, internal routes, quote fields, demo disclosures, provider gates, generated hero assets, schema placeholders, sitemap entries, and storefront-safe metadata.
 - Vercel production deployment `dpl_2xdzCjuQY2fEoKnr7qZcmVq7BeZE` reached `READY`; the permanent alias, every page title/H1/navigation, original hero, detailed quote form, local-only success state, and preview guide were verified live.
 - FireWorks Home and WebsiteCollection show the template as `Featured` and `Available`; the 1200×675 storefront image loaded at its natural dimensions. Checkout was verified at $1,999 build + $499/year annual hosting (primary) or $59.99/month, plus $20/year domain; the annual first-year total before optional add-ons is $2,518.
