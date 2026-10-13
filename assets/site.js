@@ -1,0 +1,7 @@
+const menu=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.nav');
+if(menu&&nav)menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',String(open));menu.textContent=open?'×':'☰'});
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+document.querySelectorAll('form[data-demo-form]').forEach(form=>form.addEventListener('submit',event=>{event.preventDefault();if(!form.reportValidity())return;const status=form.querySelector('.status');if(status){status.textContent='Demo complete — the fields were validated only in this browser. Nothing was sent, stored, uploaded, scheduled, enrolled, confirmed or charged. A real launch requires a verified destination, client-selected providers and end-to-end testing.';status.classList.add('show');status.focus()}}));
+document.querySelectorAll('[data-provider-gate]').forEach(link=>link.addEventListener('click',event=>{event.preventDefault();const target=document.querySelector(link.dataset.providerGate);if(target){target.scrollIntoView({behavior:'smooth',block:'center'});target.setAttribute('tabindex','-1');target.focus()}}));
+document.querySelectorAll('.faq button').forEach(button=>button.addEventListener('click',()=>{const item=button.closest('.faq');const open=item.classList.toggle('open');button.setAttribute('aria-expanded',String(open))}));
