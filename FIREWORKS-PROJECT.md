@@ -111,3 +111,8 @@ Image generation prompt summary: photorealistic commercial editorial scene of a 
 - Sunbelt year-round service direction
 - Northern seasonal opening / closing direction
 - Equipment-diagnostics direction only after services and credentials are verified
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
